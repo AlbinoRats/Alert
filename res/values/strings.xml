@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_adding_new_alert">Add New</string>
+    <string name="adding_new_alert">Adding new Alert</string>
+    <string name="add_new">Add New</string>
+    <string name="add_exercise">Add Exercise</string>
+
+</resources>
