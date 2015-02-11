@@ -1,7 +1,11 @@
 package com.typeoverflow.alert;
 import com.example.alert.R;
 import com.typeoverflow.Exercise.Exercise;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.StrictMode;
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
@@ -12,15 +16,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-public class MainActivity extends ActionBarActivity {
 
+public class MainActivity extends ActionBarActivity {
 	Button addAlert;
-	@Override
+
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		addAlert=(Button)findViewById(R.id.button1);
 		createListener();
+		
 	}
 
 	@Override
@@ -52,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
 	}
 	private void startSecondActivity(Button button)
 	{
-		Intent intent=new Intent(this,SecondActivity.class);
+		Intent intent=new Intent(this,AddActivity.class);
 		startActivity(intent);
 		
 	}

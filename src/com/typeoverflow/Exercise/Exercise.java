@@ -1,23 +1,26 @@
 package com.typeoverflow.Exercise;
 
+import com.example.alert.R;
+import com.example.alert.R.id;
+
 public class Exercise {
 	private String exerciseName;
-	private int reps;
+	private String reps;
 	private String description;
 	public Exercise()
 	{
-		exerciseName="";
-		reps=0;
-		description="";
+		exerciseName="eat";
+		reps="ni";
+		description="yep";
 	}
-	public void setReps(int reps)
+	public void setReps(String reps)
 	{
 		this.reps=reps;
 		
 	}
 	public void setName(String name)
 	{
-		this.exerciseName=name;
+		exerciseName=name;
 	}
 	public void setDescription(String description)
 	{
@@ -27,7 +30,7 @@ public class Exercise {
 	{
 		return exerciseName;
 	}
-	public int getReps()
+	public String getReps()
 	{
 		return reps;
 	}
@@ -35,5 +38,6 @@ public class Exercise {
 	{
 		return description;
 	}
+	
 
 }
