@@ -1,0 +1,22 @@
+<ExercisesList>
+
+	<Exercise>
+		<name>Push Up</name>
+		<description>"Test1"</description>
+		<reps>10</reps>
+	</Exercise>
+
+	<Exercise>
+		<name>Sit Up</name>
+		<description>Test2</description>
+		<reps>14</reps>
+	</Exercise>
+
+	<Exercise>
+		<name>Pull Up</name>
+		<description>"Test3"</description>
+		<reps>16</reps>
+	</Exercise>
+	
+
+</ExercisesList>
